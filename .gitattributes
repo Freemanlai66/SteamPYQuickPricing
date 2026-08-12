@@ -1,0 +1,8 @@
+# 让 Git 在仓库里永远存 LF
+* text=auto
+# 明确声明 JS 文件始终用 LF，禁止自动转换
+*.js     text eol=lf
+*.json   text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.user.js text eol=lf
